@@ -1,0 +1,16 @@
+#define LED_APP_PORT               0xF0BA
+#define PKT_SET_START_TIME         0x01
+#define PKT_EXTERNAL_FLASH_ERASE   0x02
+#define PKT_EXTERNAL_FLASH_WRITE   0x03
+#define PKT_SONG_ERASE             0x04
+#define PKT_SONG_APPEND            0x05
+#define PKT_STOP                   0x06
+#define PKT_SEND_SONG              0x07
+#define PKT_SEND_SCENE             0x08
+#define PKT_SEND_SHIFT             0x09
+#define PKT_ENABLE_INIT_COLOR      0x0A
+#define PKT_TURN_TO_BLACK          0x0B
+#define PKT_EXTERNAL_FLASH_READ    0x0C
+#define PKT_SONG_READ              0x0D
+#define LED_ACK                    0x01
+#define LED_NAK                    0x02
